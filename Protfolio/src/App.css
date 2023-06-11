@@ -1,0 +1,103 @@
+.button-three {
+    --button-color: white;
+    overflow: hidden;
+    border-radius: 9px;
+    background-color: #232b2b;
+  }
+  
+  .button-three .hamburger {
+    transition: translate 1s, rotate 1s;
+  }
+  
+  .button-three[aria-expanded="true"] .hamburger {
+    translate: 1px -3px;
+    rotate: 0.125turn;
+  }
+  
+  .button-three .line {
+    transition: 1s;
+    stroke-dasharray: 60 31 60 300;
+  }
+  
+  .button-three[aria-expanded="true"] .line {
+    stroke-dasharray: 60 105 60 300;
+    stroke-dashoffset: -90;
+  }
+  .arrow{
+    overflow: hidden;
+    border-radius: 5px;
+    padding:  0px 7px;
+    background-color: #116466;
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+
+  .bubble::after {
+    content: '';
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: red;
+    height: 85%;
+}
+.profile{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+height: 600px;
+width: 325px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 23px;
+position: fixed;
+}
+.hireme:hover{
+background-color: #d4d483;
+color: black;
+}
+.btnbs:hover{
+background-color: #00acee;
+}
+.btnai:hover{
+  background-color: black;
+}
+.btngr:hover{
+  background-color: #0072b1;
+}
+.btnfa:hover{
+  background-color: #3b5998;
+}
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.content {
+  width: 500px;
+  margin-right: 200px;
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 200px; /* Adjust this value to match the width of the sidebar */
+}
+.menu {
+  width: 100px;
+  position: fixed;
+  right: 0;
+  margin-right: 80px;
+  top: 0;
+  bottom: 0;
+}
+.description{
+  margin: 12px;
+}
+.customborderaduis{
+  border-radius: 83px;
+}
+.customborderaduis:hover{
+  border: 1px solid #d4d483 ;
+  filter: drop-shadow(8px 8px 8px #d4d483);
+}
+
