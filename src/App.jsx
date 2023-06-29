@@ -6,7 +6,7 @@ import Menubar from './Componets/Menubar';
 import Introduce from './Componets/Introduce';
 import About from './Componets/About';
 import Skills from './Componets/Skills';
-
+import Protfolio from './Componets/Protfolio';
 const App = () => {
   return (
     <div className="app-container mt-8">
@@ -15,6 +15,7 @@ const App = () => {
        <Introduce/>
         <About/>
         <Skills/>
+        <Protfolio/>
       </div>
       <div className="menu flex flex-col items-center mt-10">
         <Humberger/>
