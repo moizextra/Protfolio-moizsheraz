@@ -51,9 +51,9 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 border-radius: 23px;
 position: fixed;
 }
-.hireme:hover{
-background-color: #d4d483;
-color: black;
+.hireme{
+background-color: #2272FF;
+color: white;
 }
 .btnbs:hover{
 background-color: #00acee;
