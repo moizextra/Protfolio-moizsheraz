@@ -18,18 +18,18 @@ const Profile = () => {
 Frontend Developer <br/>& Student
     </span>
 </div>
-<div className='mt-7 mb-7'>
-    <img  draggable="false" style={{"width": "258px",
-    "height": "150px",borderRadius:"12px"}} src="./moiz.jpg" alt="" />
+<div className='mt-5 mb-5'>
+    <img  draggable="false" style={{"width": "200px",
+    "height": "200px", borderRadius: "50%",border:"5px solid #2272FF"}}  className=""src="./moiz.jpg" alt="" />
 </div>
-<div className='flex flex-col mb-7 font-serif'>
+<div className='flex flex-col mb-5 font-serif'>
     <span className='text-center'>moiz77131@gmail.com</span>
     <span>Base in Islamabad,Pakistan</span>
 </div>
-<div className='mb-7'>
+<div className='mb-5'>
     <span>© 2023 Moiz.All Rights Reserved</span>
 </div>
-<div className='icons flex mb-7 '>
+<div className='icons flex mb-5 '>
 <button className='btnbs border rounded-xl p-4 m-3'><BsTwitter/></button>
 <button className='btnai border rounded-xl p-4 m-3'><AiFillGithub/></button>
 <button className='btngr border rounded-xl p-4 m-3'><GrLinkedinOption/></button>
