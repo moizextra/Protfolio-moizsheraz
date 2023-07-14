@@ -58,13 +58,13 @@ body{
       height: 800px;
       padding: 12px;
       justify-content: center;
-      align-items: baseline;
+    
     }
     .des{
       font-size: 12px;
     }
     .paraw{
-      width: 275px;
+      /* width: 275px; */
     }
     
   }
