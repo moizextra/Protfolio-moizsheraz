@@ -54,17 +54,18 @@ body{
     }
     .Project{
       flex-direction: column;
-      width: 359px;
-      height: 800px;
-      padding: 12px;
+      width: 384px;
+      height: 650px;
+      padding:  0px 5px;
       justify-content: center;
     
     }
     .des{
       font-size: 12px;
+      margin: 0!important;
     }
     .paraw{
-      /* width: 275px; */
+    
     }
     
   }
