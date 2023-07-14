@@ -8,8 +8,8 @@ import {MdWork} from "react-icons/md";
 
 const Profile = () => {
   return (
-    <section className='sidebar' >
-    <div  className='  profile  flex flex-col mt-10 ml-10  items-center profile p-8'>
+    <div className='sidebar ' >
+    <div  className='  profile  flex flex-col mt-10 ml-10  items-center profile p-8 '>
 <div className='flex items-center justify-between  w-64'>
     <h1 className='text-3xl font-bold'>
       Moiz 
@@ -37,7 +37,7 @@ Frontend Developer <br/>& Student
 </div>
     <button  className=' hireme border w-full rounded-xl flex items-center justify-center p-3 '><MdWork className='mr-3'/>Resume</button>
     </div>
-    </section>
+    </div>
   )
 }
 

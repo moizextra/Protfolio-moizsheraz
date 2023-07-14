@@ -19,7 +19,7 @@ const Projects = () => {
         <div className="Projectdetails mt-4">
           <h2 className="font-bold text-xl text-green-600 mb-2">TalentTrove-Job Search App</h2>
           <span className="des font-serif text-gray-300 text-justify mr-3 mb-3">
-            TalentTrove, a job search application built using Tailwind CSS and Next.js. It allows users to navigate through job search with its amazing search functionality and see the job description.
+           <p className='paraw'> TalentTrove, a job search application built using Tailwind CSS and Next.js. It allows users to navigate through job search with its amazing search functionality and see the job description.</p>
           </span>
           <br />
           <span className="stack mt-12">
@@ -72,13 +72,13 @@ const Projects = () => {
 
           <div className="absolute right-3 bottom-2">
             <button className="p-2 border m-2 rounded-xl">
-              <a href="https://github.com/abdulmoizsheraz/GameGear#installation">Docs</a>
+              <a href="https://github.com/abdulmoizsheraz/GameGear#installation" target="_blank">Docs</a>
             </button>
             <button className="p-2 border m-2 rounded-xl">
           <a href="https://github.com/abdulmoizsheraz/GameGear" target="_blank">Github</a>
             </button>
             <button className="p-2 border m-2 rounded-xl">
-            <a href="game-gear.vercel.app">Demo</a>
+            <a href="game-gear.vercel.app" target="_blank">Demo</a>
             </button>
           </div>
         </div>

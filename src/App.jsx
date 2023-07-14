@@ -9,20 +9,21 @@ import Skills from './Componets/Skills';
 import Protfolio from './Componets/Protfolio';
 const App = () => {
   return (
-    <div className="app-container mt-8">
-      <Profile/>
+    <main className="app-container mt-8  ">
+      <div>
+      <Profile /> 
+      </div>
       <div className="content mt-3">
-       <Introduce/>
-        <About/>
-        <Skills/>
-        <Protfolio/>
+        <Introduce />
+        <About />
+        <Skills />
+        <Protfolio />
       </div>
       <div className="menu flex flex-col items-center mt-10">
-        <Humberger/>
-        <Menubar/>
-      
+        <Humberger />
+        <Menubar />
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -30,3 +30,41 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+  @media screen and (max-width: 1050px) {
+body{
+  overflow-x: hidden;
+}
+    .app-container {
+      flex-direction: column;
+    }
+    .profile{
+     position: static;
+    }
+    .sidebar {
+      display: block;
+      margin: auto;
+      width: 0vw;
+    }
+    .menu{
+      display:none
+    }
+    .aboutpara{
+      font-weight: 700;
+    font-size: 3.1rem;
+    }
+    .Project{
+      flex-direction: column;
+      width: 359px;
+      height: 800px;
+      padding: 12px;
+      justify-content: center;
+      align-items: baseline;
+    }
+    .des{
+      font-size: 12px;
+    }
+    .paraw{
+      width: 275px;
+    }
+    
+  }
