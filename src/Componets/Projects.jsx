@@ -1,6 +1,7 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
    <section>
@@ -39,15 +40,18 @@ const Projects = () => {
 <div className="Projectimg mx-8 mt-4 ">
 <Carousel width={300} height={200} showArrows={true} showThumbs={false} dynamicHeight={true} >
                 <div>
-                    <img src="TalentTroveP1.png" className='rounded-xl h-72'/>
+                    <img src="Game1.png" className='rounded-xl h-72'/>
                 </div>
                 <div>
-                <img src="TalentTroveP2.png" className='rounded-xl h-72 '/>
+                <img src="Game2.png" className='rounded-xl h-72 '/>
+                </div>
+                <div>
+                <img src="Game3.png" className='rounded-xl h-72 '/>
                 </div>
             </Carousel>
 </div>
 <div className='Projectdetails  mt-4 '>
-<h2 className='font-bold text-xl text-green-600 mb-2'>TalentTrove-Job Search App</h2>
+<h2 className='font-bold text-xl text-red-600 mb-2'>GameGear-Ecommerce App</h2>
 <span className='des font-serif  text-gray-300 text-justify mr-3 mb-3'>TalentTrove,A job Search Application built using Tailwind Css and Next js.It Allows User to Navigate Through Job Search with its Amazimg Search Functionality and See the Job Description. </span><br/>
 <span className='stack mt-12'>
 <div className='border px-2 py-1 rounded-sm text-center mt-2 inline-block '>Tech Stack</div>
@@ -61,7 +65,7 @@ const Projects = () => {
 
 <div className='absolute right-3 bottom-2'>
   <button className='p-2 border m-2 rounded-xl'>Docs</button>
-  <button className='p-2 border m-2 rounded-xl'>Github</button>
+  <button className='p-2 border m-2 rounded-xl'><Link to="https://github.com/abdulmoizsheraz/GameGear">Github</Link></button>
   <button className='p-2 border m-2 rounded-xl'>Demo</button>
 </div>
 </div>
