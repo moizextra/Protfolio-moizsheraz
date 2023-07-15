@@ -45,7 +45,8 @@ body{
      position: static;
     }
     .sidebar {
-
+    
+      margin-left: -22px;
     }
     .menu{
       display:none
