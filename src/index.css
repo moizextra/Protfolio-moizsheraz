@@ -74,6 +74,7 @@ body{
     .aboutpara{
       font-size:19px;
       width: 313px;
+      text-align: center;
     }
     .intropara{
       font-size: 39px;
@@ -114,5 +115,11 @@ body{
   }
   .projectbtn{
     padding: 4px;
+  }
+  .abouttag{
+    margin-bottom:4px;
+  }
+  .skillstag{
+    margin-bottom:4px;
   }
   }
