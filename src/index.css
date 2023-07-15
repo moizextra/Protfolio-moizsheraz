@@ -68,6 +68,7 @@ body{
     
     }
     .content{
-     display: none;
+  width: 294px;
+     margin: 21px;
     }
   }
