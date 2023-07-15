@@ -31,8 +31,11 @@
     background: #555; 
   }
   @media screen and (max-width: 1050px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
 body{
-
   overflow-x: hidden;
 }
     .app-container {
@@ -42,9 +45,7 @@ body{
      position: static;
     }
     .sidebar {
-      display: block;
-      margin: auto;
-      width: 0vw;
+
     }
     .menu{
       display:none
@@ -59,17 +60,14 @@ body{
       height: 650px;
       padding:  0px 5px;
       justify-content: center;
-    
+    margin-top: 0px;
+    margin-left: 0px;
     }
-    .des{
-      font-size: 12px;
-      margin: 0!important;
-    }
+
     .paraw{
     
     }
     .content{
-      display: flex;
-    flex-direction: column;
+     display: none;
     }
   }
