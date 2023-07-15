@@ -75,7 +75,9 @@ body{
       font-size:12px;
     }
     .intropara{
-      font-size: 20px;
+      font-size: 39px;
+      margin-top: 0;
+      margin-bottom: 0;
     }
     .skill{
       padding: 10px;
