@@ -10,29 +10,29 @@ const Skills = () => {
   return (
     <div className='flex flex-col justify-center items-center mt-4' data-aos="fade-up">
        <span className='border px-4 py-1 rounded-full text-center flex items-center justify-center mb-12'><SiTalenthouse/> <span className='ml-3'>Skills</span></span>
-       <div className='flex flex-wrap'>
-       <div className='flex roundcustom m-2 customborderaduis flex-col w-48 justify-center items-center border  p-9 '>
-        <span className='text-4xl mb-2'>React</span>
+       <div className=' skillsdiv flex flex-wrap '>
+       <div className=' skill flex roundcustom m-2 customborderaduis flex-col w-48 justify-center items-center border  p-9 '>
+        <span className='text-4xl mb-2 skillname'>React</span>
         <FaReact size={100}/>
        </div>
-       <div className='flex roundcustom  m-4 flex-col customborderaduis w-48 justify-center items-center border  p-9'>
-        <span className='text-4xl mb-2'>Tailwind</span>
+       <div className=' skill flex roundcustom  m-4 flex-col customborderaduis w-48 justify-center items-center border  p-9'>
+        <span className='text-4xl mb-2 skillname'>Tailwind</span>
         <SiTailwindcss size={100}/>
        </div>
-       <div className='flex roundcustom  m-4 flex-col customborderaduis  w-48 justify-center items-center border  p-9'>
-        <span className='text-4xl mb-2'>Redux</span>
+       <div className=' skill flex roundcustom  m-4 flex-col customborderaduis  w-48 justify-center items-center border  p-9'>
+        <span className='text-4xl mb-2 skillname'>Redux</span>
         <TbBrandRedux size={100}/>
        </div>
-       <div className='flex roundcustom flex-col m-4 customborderaduis w-48 justify-center items-center border  p-9'>
-        <span className='text-4xl mb-2'>Node</span>
+       <div className=' skill flex roundcustom flex-col m-4 customborderaduis w-48 justify-center items-center border  p-9'>
+        <span className='text-4xl mb-2 skillname'>Node</span>
         <GrNode size={100}/>
        </div>
-       <div className='flex roundcustom flex-col m-4 customborderaduis  w-48 justify-center items-center border  p-9'>
-        <span className='text-4xl mb-2'>Next</span>
+       <div className=' skill flex roundcustom flex-col m-4 customborderaduis  w-48 justify-center items-center border  p-9'>
+        <span className='text-4xl mb-2 skillname'>Next</span>
         <SiNextdotjs size={100}/>
        </div>
-       <div className='flex roundcustom flex-col m-4 customborderaduis  w-48 justify-center items-center border  p-9'>
-        <span className='text-4xl mb-2'>Typescript</span>
+       <div className=' skill flex roundcustom flex-col m-4 customborderaduis  w-48 justify-center items-center border  p-9'>
+        <span className='text-4xl mb-2 skillname'>Typescript</span>
         <SiTypescript size={100}/>
        </div>
        </div>

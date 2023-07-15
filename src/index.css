@@ -71,4 +71,45 @@ body{
   width: 294px;
      margin: 21px;
     }
+    .aboutpara{
+      font-size:12px;
+    }
+    .intropara{
+      font-size: 20px;
+    }
+    .skill{
+      padding: 10px;
+      border-radius: 3px;
+      height: 100px;
+      width: 150px;
+    }
+    .skillname{
+      font-size: 33px;
+    }
+    .skillsdiv{
+      justify-content: center;
+    }
+    .Projectimg{
+      display: flex;
+      justify-content: center;
+    }
+    .Project{
+      width: 250px;
+    }
+    .projectimage{
+    
+    }
+    .carousel .slide img {
+      width: 61%;
+      vertical-align: top;
+      border: 0;
+  }
+  .Project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .projectbtn{
+    padding: 4px;
+  }
   }

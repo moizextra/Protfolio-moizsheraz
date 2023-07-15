@@ -6,20 +6,20 @@ const Projects = () => {
   return (
     <section>
       <div className="Project border relative h-80 rounded-xl flex m-3" data-aos="fade-right" data-aos-duration="5000">
-        <div className="Projectimg mx-8 mt-4">
+        <div className="Projectimg lg:mx-8 lg:mt-4">
           <Carousel width={300} height={200} showArrows={true} showThumbs={false} dynamicHeight={true}>
             <div>
-              <img src="TalentTroveP1.png" className="rounded-xl h-72" alt="Project 1" />
+              <img src="TalentTroveP1.png" className=" rounded-xl lg:h-72 sm:h-23" alt="Project 1" />
             </div>
             <div>
-              <img src="TalentTroveP2.png" className="rounded-xl h-72" alt="Project 2" />
+              <img src="TalentTroveP2.png" className=" rounded-xl  lg:h-72 sm:h-23" alt="Project 2" />
             </div>
           </Carousel>
         </div>
         <div className="Projectdetails mt-4">
           <h2 className="font-bold text-xl text-green-600 mb-2">TalentTrove-Job Search App</h2>
           <span className="des font-serif text-gray-300 text-justify mr-3 mb-3">
-           <p className='paraw'> TalentTrove, a job search application built using Tailwind CSS and Next.js. It allows users to navigate through job search with its amazing search functionality and see the job description.</p>
+            <p className='paraw'> TalentTrove, a job search application built using Tailwind CSS and Next.js. It allows users to navigate through job search with its amazing search functionality and see the job description.</p>
           </span>
           <br />
           <span className="stack mt-12">
@@ -33,14 +33,14 @@ const Projects = () => {
           </span>
 
           <div className="absolute right-3 bottom-2">
-            <button className="p-2 border m-2 rounded-xl">Docs</button>
-            <button className="p-2 border m-2 rounded-xl">Github</button>
-            <button className="p-2 border m-2 rounded-xl">Demo</button>
+            <button className="p-2 border m-2 rounded-xl projectbtn">Docs</button>
+            <button className="p-2 border m-2 rounded-xl projectbtn">Github</button>
+            <button className="p-2 border m-2 rounded-xl projectbtn">Demo</button>
           </div>
         </div>
       </div>
 
-      <div className="Project border relative h-80 rounded-xl flex m-3" data-aos="fade-left" data-aos-duration="5000">
+      {/* <div className="Project border relative h-80 rounded-xl flex m-3" data-aos="fade-left" data-aos-duration="5000">
         <div className="Projectimg mx-8 mt-4">
           <Carousel width={300} height={200} showArrows={true} showThumbs={false} dynamicHeight={true}>
             <div>
@@ -72,17 +72,17 @@ const Projects = () => {
 
           <div className="absolute right-3 bottom-2">
             <button className="p-2 border m-2 rounded-xl">
-              <a href="https://github.com/abdulmoizsheraz/GameGear#installation" target="_blank">Docs</a>
+              <a href="https://github.com/abdulmoizsheraz/GameGear#installation" target="_blank" rel="noopener noreferrer">Docs</a>
             </button>
             <button className="p-2 border m-2 rounded-xl">
-          <a href="https://github.com/abdulmoizsheraz/GameGear" target="_blank">Github</a>
+              <a href="https://github.com/abdulmoizsheraz/GameGear" target="_blank" rel="noopener noreferrer">Github</a>
             </button>
             <button className="p-2 border m-2 rounded-xl">
-            <a href="game-gear.vercel.app" target="_blank">Demo</a>
+              <a href="game-gear.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a>
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
