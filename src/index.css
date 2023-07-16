@@ -43,10 +43,10 @@ body{
     }
     .profile{
      position: static;
+     height:570px;
     }
     .sidebar {
-    
-      margin-left: -22px;
+      margin-left: -9px;
     }
     .menu{
       display:none
@@ -75,7 +75,7 @@ body{
         font-size: 19px;
         width: 313px;
         text-align: center;
-        margin-left: 52px;
+        margin-left: 40px;
     }
     .intropara{
       font-size: 39px;

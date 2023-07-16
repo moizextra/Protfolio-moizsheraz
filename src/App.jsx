@@ -7,8 +7,10 @@ import Introduce from './Componets/Introduce';
 import About from './Componets/About';
 import Skills from './Componets/Skills';
 import Protfolio from './Componets/Protfolio';
+import Contact from './Componets/Contact';
 const App = () => {
   return (
+    <>
     <main className="app-container mt-8  ">
       <div>
       <Profile /> 
@@ -24,6 +26,8 @@ const App = () => {
         <Menubar />
       </div>
     </main>
+      <Contact/>
+    </>
   );
 };
 

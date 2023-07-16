@@ -9,27 +9,30 @@ import {MdWork} from "react-icons/md";
 const Profile = () => {
   return (
     <div className='sidebar ' >
-    <div  className='  profile  flex flex-col mt-10 ml-10  items-center profile p-8 '>
+    <div  className='  profile  flex flex-col mt-10 ml-10  items-center justify-between profile p-8 '>
 <div className='flex items-center justify-between  w-64'>
-    <h1 className='text-3xl font-bold'>
+    <h1 className='lg:text-3xl sm:text-xl font-bold'>
       Moiz 
     </h1>
     <span className='font-serif'>
 Frontend Developer <br/>& Student
     </span>
 </div>
-<div className='mt-5 mb-5'>
-    <img  draggable="false" style={{"width": "200px",
-    "height": "200px", borderRadius: "50%",border:"5px solid #2272FF"}}  className=""src="./moiz.jpg" alt="" />
+<div className=''>
+    <img  draggable="false" style={{"width": "167px",
+    "height": "167px", borderRadius: "50%",border:"5px solid #2272FF"}}  className=""src="./moiz.jpg" alt="" />
 </div>
-<div className='flex flex-col mb-5 font-serif'>
+
+<div className='flex flex-col  font-serif'>
     <span className='text-center'>moiz77131@gmail.com</span>
     <span>Base in Islamabad,Pakistan</span>
 </div>
-<div className='mb-5'>
+
+
+<div className='' >
     <span>© 2023 Moiz.All Rights Reserved</span>
 </div>
-<div className='icons flex mb-5 '>
+<div className='icons flex '>
 <button className='btnbs border rounded-xl p-4 m-3'><BsTwitter/></button>
 <button className='btnai border rounded-xl p-4 m-3'><AiFillGithub/></button>
 <button className='btngr border rounded-xl p-4 m-3'><GrLinkedinOption/></button>
