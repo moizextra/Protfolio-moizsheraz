@@ -79,8 +79,11 @@ background-color: #00acee;
   width: 500px;
   margin-right: 200px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
   padding: 20px;
-  margin-left: 200px; /* Adjust this value to match the width of the sidebar */
+  margin-left: 200px; 
 }
 .menu {
   width: 100px;
@@ -104,14 +107,14 @@ background-color: #00acee;
 
 .background {
   display: flex;
-  min-height: 100vh;
-  width:100vw
+;
 }
 
 .container {
   flex: 0 1 700px;
   margin: auto;
   padding: 10px;
+  width: 200px;
 }
 
 .screen {
@@ -129,7 +132,7 @@ background-color: #00acee;
   right: 20px;
   bottom: 0;
   border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  /* box-shadow: 0 20px 40px rgba(0, 0, 0, .4); */
   z-index: -1;
 }
 

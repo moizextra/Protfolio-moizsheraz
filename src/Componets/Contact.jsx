@@ -2,7 +2,7 @@ import React from 'react'
 const Contact=()=>{
 return (
     <div class="background">
-    <div class="container">
+    <div class="container ">
       <div class="screen">
         <div class="screen-header">
           <div class="screen-header-left">

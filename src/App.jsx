@@ -8,6 +8,7 @@ import About from './Componets/About';
 import Skills from './Componets/Skills';
 import Protfolio from './Componets/Protfolio';
 import Contact from './Componets/Contact';
+import Footer from './Componets/Footer';
 const App = () => {
   return (
     <>
@@ -20,13 +21,15 @@ const App = () => {
         <About />
         <Skills />
         <Protfolio />
+        <Contact/>
+        <Footer/>
       </div>
       <div className="menu flex flex-col items-center mt-10">
         <Humberger />
         <Menubar />
       </div>
     </main>
-      <Contact/>
+     
     </>
   );
 };
