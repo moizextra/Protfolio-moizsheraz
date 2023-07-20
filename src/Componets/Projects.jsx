@@ -34,8 +34,8 @@ const Projects = () => {
 
           <div className="absolute right-3 bottom-2">
             <button className="p-2 border m-2 rounded-xl projectbtn">Docs</button>
-            <button className="p-2 border m-2 rounded-xl projectbtn"><a href="talent-trove.vercel.app">Github</a></button>
-            <button className="p-2 border m-2 rounded-xl projectbtn"><a href="talent-trove.vercel.app">Demo</a></button>
+            <button className="p-2 border m-2 rounded-xl projectbtn"><a href="https://talent-trove.vercel.app">Github</a></button>
+            <button className="p-2 border m-2 rounded-xl projectbtn"><a href="https://talent-trove.vercel.app">Demo</a></button>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ const Projects = () => {
               <a href="https://github.com/abdulmoizsheraz/GameGear" target="_blank" rel="noopener noreferrer">Github</a>
             </button>
             <button className="p-2 border m-2 rounded-xl">
-              <a href="game-gear.vercel.app" target="_blank" rel="noopener noreferrer">Demo</a>
+              <a href="game-gear.vercel.app" target="_blank" rel="noopener noreferrer"><a href="https://game-gear.vercel.app"></a></a>
             </button>
           </div>
         </div>
