@@ -34,14 +34,14 @@ const Projects = () => {
 
           <div className="absolute right-3 bottom-2">
             <button className="p-2 border m-2 rounded-xl projectbtn">Docs</button>
-            <button className="p-2 border m-2 rounded-xl projectbtn">Github</button>
-            <button className="p-2 border m-2 rounded-xl projectbtn">Demo</button>
+            <button className="p-2 border m-2 rounded-xl projectbtn"><a href="talent-trove.vercel.app">Github</a></button>
+            <button className="p-2 border m-2 rounded-xl projectbtn"><a href="talent-trove.vercel.app">Demo</a></button>
           </div>
         </div>
       </div>
-
-      {/* <div className="Project border relative h-80 rounded-xl flex m-3" data-aos="fade-left" data-aos-duration="5000">
-        <div className="Projectimg mx-8 mt-4">
+{/* second */}
+      <div className="Project border relative h-80 rounded-xl flex m-3" data-aos="fade-left" data-aos-duration="5000">
+        <div className="Projectimg lg:mx-8 lg:mt-4">
           <Carousel width={300} height={200} showArrows={true} showThumbs={false} dynamicHeight={true}>
             <div>
               <img src="Game1.png" className="rounded-xl h-72" alt="Game 1" />
@@ -82,7 +82,7 @@ const Projects = () => {
             </button>
           </div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };

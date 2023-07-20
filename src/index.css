@@ -44,6 +44,7 @@ body{
     .profile{
      position: static;
      height:570px;
+     margin: 0;
     }
     .sidebar {
       margin-left: -9px;
