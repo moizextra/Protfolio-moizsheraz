@@ -33,9 +33,9 @@ Frontend Developer <br/>& Student
     <span>© 2023 Moiz.All Rights Reserved</span>
 </div>
 <div className='icons flex '>
-<button className='btnbs border rounded-xl p-4 m-3'><a href="https://github.com/abdulmoizsheraz"></a><BsTwitter/></button>
-<button className='btnai border rounded-xl p-4 m-3'><a href="https://www.linkedin.com/in/moiz-sheraz-218117229/"><AiFillGithub/></a></button>
-<button className='btngr border rounded-xl p-4 m-3'><a href=""><GrLinkedinOption/></a></button>
+<button className='btnbs border rounded-xl p-4 m-3'><a href=""><BsTwitter/></a></button>
+<button className='btnai border rounded-xl p-4 m-3'><a href="https://github.com/abdulmoizsheraz"><AiFillGithub/></a></button>
+<button className='btngr border rounded-xl p-4 m-3'><a href="https://www.linkedin.com/in/moiz-sheraz-218117229/"><GrLinkedinOption/></a></button>
 <button className='btnfa border rounded-xl p-4 m-3'><a href=""><FaFacebook/></a></button>
 </div>
     <button  className='hireme border w-full rounded-xl flex items-center justify-center p-3 '><MdWork className='mr-3'/>Resume</button>
