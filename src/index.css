@@ -4,11 +4,13 @@
 *{
     margin: 0;
     padding: 0;
+    
   }
   body{
    overflow-x: hidden;
     color: white;
     background-color: #1D1D1D;
+    border: 2px solid white;
 /* background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); */
   }
   ::-webkit-scrollbar-track {
@@ -30,7 +32,7 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 480px) {
     *{
       margin: 0;
       padding: 0;
@@ -40,15 +42,19 @@ body{
 }
     .app-container {
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid red;
     }
     .profile{
      position: static;
      height:570px;
-     margin: 0;
+     margin-left: 0;
+     margin-right: 0;
+     margin-top: 0;
+     margin-bottom: 0;
     }
-    .sidebar {
-      margin-left: -9px;
-    }
+
     .menu{
       display:none
     }
@@ -58,11 +64,10 @@ body{
     }
     .Project{
       flex-direction: column;
-      width: 384px;
-      height: 650px;
-      padding:  0px 5px;
+      width: 270px;
+      height: 700px;
       justify-content: center;
-   margin: 0px;
+ 
     }
 
     .paraw{
@@ -74,9 +79,7 @@ body{
     }
     .aboutpara{
         font-size: 19px;
-        width: 313px;
-        text-align: center;
-        margin-left: 40px;
+       
     }
     .intropara{
       font-size: 39px;
@@ -100,7 +103,8 @@ body{
       justify-content: center;
     }
     .Project{
-      width: 250px;
+     
+    
     }
     .projectimage{
     
@@ -111,11 +115,6 @@ body{
       border: 0;
   }
   
-  .Project{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
   .projectbtn{
     padding: 4px;
   }

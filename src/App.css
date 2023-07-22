@@ -71,19 +71,10 @@ background-color: #00acee;
   display: flex;
 }
 
-.sidebar {
-  width: 200px;
-}
+
 
 .content {
-  width: 500px;
-  margin-right: 200px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-  padding: 20px;
-  margin-left: 200px; 
+
 }
 .menu {
   width: 100px;
