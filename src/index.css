@@ -10,7 +10,6 @@
    overflow-x: hidden;
     color: white;
     background-color: #1D1D1D;
-    border: 2px solid white;
 /* background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); */
   }
   ::-webkit-scrollbar-track {
@@ -44,7 +43,6 @@ body{
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border: 5px solid red;
     }
     .profile{
      position: static;
