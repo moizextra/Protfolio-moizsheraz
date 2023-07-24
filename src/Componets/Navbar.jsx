@@ -2,17 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import Humberger from "./Humberger";
 
 const Navbar = ({addandremoveclass}) => {
-
-  const handleburger = () => {
-    const currentState = btnref.current.getAttribute("data-state");
-    if (!currentState || currentState === "closed") {
-      btnref.current.setAttribute("data-state", "opened");
-      btnref.current.setAttribute("aria-expanded", "true");
-    } else {
-      btnref.current.setAttribute("data-state", "closed");
-      btnref.current.setAttribute("aria-expanded", "false");
-    }
-  };
   
   return (
    <nav className=' pt-14 text-lime-50 relative' >

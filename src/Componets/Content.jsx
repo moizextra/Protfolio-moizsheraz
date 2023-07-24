@@ -8,12 +8,15 @@ import Footer from './Footer';
 const Content = () => {
   return (
     <>
+    <div className='content'>
+
       <Introduce />
         <About />
         <Skills />
         <Protfolio />
         <Contact/>
         <Footer/>
+    </div>
     </>
   )
 }

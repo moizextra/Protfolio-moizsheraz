@@ -74,6 +74,8 @@ body{
     .content{
   width: 294px;
      margin: 21px;
+      margin-right:0 ;
+      margin-left:0 ;
     }
     .aboutpara{
         font-size: 19px;

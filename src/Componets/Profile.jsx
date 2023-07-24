@@ -8,7 +8,7 @@ import {MdWork} from "react-icons/md";
 
 const Profile = () => {
   return (
-    
+    <div className='profileContainer'>
     <div  className='  profile  flex flex-col mt-10 ml-10  items-center justify-between profile p-8 '>
 <div className='flex items-center justify-between  w-64'>
     <h1 className='lg:text-3xl sm:text-xl font-bold'>
@@ -40,7 +40,7 @@ Frontend Developer <br/>& Student
 </div>
     <button  className='hireme border w-full rounded-xl flex items-center justify-center p-3 '><MdWork className='mr-3'/>Resume</button>
     </div>
-  
+    </div>
   )
 }
 
