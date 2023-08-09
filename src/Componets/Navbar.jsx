@@ -1,18 +1,14 @@
-import { useState, useEffect, useRef } from "react";
-import Humberger from "./Humberger";
-
-const Navbar = ({addandremoveclass}) => {
-  
+const Navbar = () => {
   return (
-   <nav className=' pt-14 text-lime-50 relative' >
-    <ul className='flex items-center list-none absolute right-52'>
-        <li className='m-3 font-mono text-xl font-extrabold'>Let's</li>
-        <li className='m-3 font-mono text-xl font-extrabold'>Start</li>
-        <li onClick={addandremoveclass} className='m-3   arrow font-mono text-xl font-extrabold'>{">"}</li>
-   <Humberger/>
- 
-    </ul>
-   </nav>
+<nav className=' '>
+<ul className='flex justify-center   text-white'>
+  <li className="p-2 m-2 text-2xl font-bold font-mono navbaritem"><a href="">Home</a></li>
+  <li className="p-2 m-2 text-2xl font-bold font-mono navbaritem"><a href="">About</a></li>
+  <li className="p-2 m-2 text-2xl font-bold font-mono navbaritem"><a href="">Signup</a></li>
+  <li className="p-2 m-2 text-2xl font-bold font-mono navbaritem"><a href="">Login</a></li>
+</ul>
+
+</nav>
   )
 }
 

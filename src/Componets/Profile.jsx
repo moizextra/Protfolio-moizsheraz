@@ -4,10 +4,12 @@ import {AiFillGithub} from "react-icons/ai";
 import {GrLinkedinOption} from "react-icons/gr";
 import {FaFacebook} from "react-icons/fa";
 import {MdWork} from "react-icons/md";
-
+import Terminal from "../Componets/Terminal"
 
 const Profile = () => {
   return (
+    <>
+    <section className='flex flex-col '>
     <div className='profileContainer'>
     <div  className='  profile  flex flex-col mt-10 ml-10  items-center justify-between profile p-8 '>
 <div className='flex items-center justify-between  w-64'>
@@ -41,6 +43,9 @@ Frontend Developer <br/>& Student
     <button  className='hireme border w-full rounded-xl flex items-center justify-center p-3 '><MdWork className='mr-3'/>Resume</button>
     </div>
     </div>
+{/* <Terminal/> */}
+    </section>
+    </>
   )
 }
 

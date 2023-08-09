@@ -68,11 +68,10 @@ background-color: #00acee;
   background-color: #3b5998;
 }
 .app-container {
+  margin-top: 100px;
   display: flex;
   width: 100vw;
   flex-direction: row;
-  /* border: 2px solid red; */
-  /* align-items: center; */
   justify-content: space-around;
  
 }
@@ -248,10 +247,17 @@ margin-left:1.5rem ;
 .app-form-control:focus {
   border-bottom-color: #ddd;
 }
-
-
-
-
+.navbar{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+height:80px
+}
+.navbaritem:hover{
+color: #0072b1;
+}
 
 .credits {
   display: flex;
