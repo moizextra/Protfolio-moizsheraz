@@ -284,7 +284,9 @@ color: #0072b1;
   height: 20px;
   margin: 0 5px;
 }
-
+.intropara{
+  margin-top: 45px;
+}
 @media screen and (max-width: 520px) {
   .screen-body {
     flex-direction: column;
@@ -305,6 +307,7 @@ color: #0072b1;
   .app-title:after {
     display: none;
   }
+
 }
 
 @media screen and (max-width: 600px) {
