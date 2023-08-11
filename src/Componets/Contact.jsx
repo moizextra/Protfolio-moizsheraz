@@ -1,7 +1,7 @@
 import React from 'react'
 const Contact=()=>{
 return (
-    <div class="background">
+    <div class="background" id='contact'>
     <div class="container ">
       <div class="screen">
         <div class="screen-header">

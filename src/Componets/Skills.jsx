@@ -10,7 +10,7 @@ import {BsGit} from "react-icons/bs"
 import {AiFillGithub} from "react-icons/ai"
 const Skills = () => {
   return (
-    <div className='flex flex-col justify-around items-center'>
+    <div className='flex flex-col justify-around items-center' id='skills'>
        <span className='border px-4 py-1 rounded-full text-center mb-3 mt-3 flex items-center justify-center skillstag'><SiTalenthouse/> <span className='ml-3'>Skills</span></span>
        <div className=' skillsdiv flex justify-around flex-wrap'  data-aos="fade-up">
        <div className=' skill flex roundcustom m-2 customborderaduis flex-col w-48 justify-center items-center border  p-9 '>

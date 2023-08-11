@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Projects = () => {
   return (
-    <section>
+    <section id='projects'>
       <div className="Project border  h-80 rounded-xl flex m-3" data-aos="fade-right" data-aos-duration="5000">
         <div className="Projectimg lg:mx-8 lg:mt-4">
           <Carousel width={300} height={200} showArrows={true} showThumbs={false} dynamicHeight={false}>
