@@ -71,10 +71,10 @@ const Projects = () => {
    {isHovered && <div className='leveldes'>
 <p>Easy Projects</p>
     </div>} 
-   {isHovered1 && <div className='leveldes'>
+   {isHovered1 && <div className='leveldes1'>
 <p>Meduim level Projects</p>
     </div>} 
-   {isHovered2 && <div className='leveldes'>
+   {isHovered2 && <div className='leveldes2'>
 <p>Difficult Projects Utilizing sockets</p>
     </div>} 
     </section>
