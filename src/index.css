@@ -118,6 +118,9 @@ body{
   .projectbtn{
     padding: 4px;
   }
+  .projectsoption{
+    display: none;
+  }
 
  
   }

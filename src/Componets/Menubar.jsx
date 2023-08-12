@@ -8,7 +8,7 @@ import {AiOutlineFundProjectionScreen} from "react-icons/ai"
 import {AiOutlineMessage} from "react-icons/ai"
 const Menubar = () => {
   return (
-    <div className=' navbar flex justify-center items-center  text-white w-full fixed top-0 '>
+    <div className='navbar flex justify-center items-center  text-white w-full fixed top-0 '>
  <Link
         to="Home"
         className='cursor-pointer'
@@ -42,7 +42,7 @@ const Menubar = () => {
         smooth={true}
         offset={-150} // Offset aapke navigation bar ya header ki height ke hisab se adjust karein
         duration={500}
-      ><AiOutlineFundProjectionScreen color='white' className="m-2" size={40}/></Link>
+      ><AiOutlineFundProjectionScreen color='#2272FF' className="m-2" size={60}/></Link>
 <Link
         to="contact"
         spy={true}

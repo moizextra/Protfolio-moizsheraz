@@ -1,10 +1,38 @@
-import React from 'react';
+import React,{useState} from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-
 const Projects = () => {
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
+  const handleMouseEnter1 = () => {
+    setIsHovered1(true);
+  };
+  const handleMouseLeave1 = () => {
+    setIsHovered1(false);
+  };
+  const handleMouseEnter2 = () => {
+    setIsHovered2(true);
+  };
+  const handleMouseLeave2 = () => {
+    setIsHovered2(false);
+  };
+  const [isHovered, setIsHovered] = useState(false);
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
   return (
-    <section id='projects'>
+    <>
+        <ul className=' projectsoption flex justify-center items-center' data-aria-orientation='horizantal' >
+          <li className='m-3 p-1 cursor-pointer' onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      >Level 1😊</li>
+          <li className='m-3 p-1 cursor-pointer ' onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>Level 2😳</li>
+          <li className='m-3 p-1 cursor-pointer' onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>Level 3🤯</li>
+        </ul>
+    <section className='projects relative'>
       <div className="Project border  h-80 rounded-xl flex m-3" data-aos="fade-right" data-aos-duration="5000">
         <div className="Projectimg lg:mx-8 lg:mt-4">
           <Carousel width={300} height={200} showArrows={true} showThumbs={false} dynamicHeight={false}>
@@ -39,9 +67,18 @@ const Projects = () => {
           </div>
         </div>
       </div>
-{/* second */}
-    
+
+   {isHovered && <div className='leveldes'>
+<p>Easy Projects</p>
+    </div>} 
+   {isHovered1 && <div className='leveldes'>
+<p>Meduim level Projects</p>
+    </div>} 
+   {isHovered2 && <div className='leveldes'>
+<p>Difficult Projects Utilizing sockets</p>
+    </div>} 
     </section>
+            </>
   );
 };
 

@@ -284,6 +284,32 @@ color: #0072b1;
   height: 20px;
   margin: 0 5px;
 }
+.projectsoption{
+  height: 50px;
+background: rgba(255, 255, 255, 0.21);
+border-radius: 40px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.72);
+margin:12px;
+
+}
+.leveldes{
+  height: 200px;
+  width: 400px;
+  background-color:#1D1D1D;
+  z-index: 3;
+  /* From https://css.glass */
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(255, 255, 255, 0.65);
+position: absolute;
+top: 0;
+}
+
 .intropara{
   margin-top: 45px;
 }
