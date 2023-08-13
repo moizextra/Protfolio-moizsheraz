@@ -118,7 +118,16 @@ body{
   .projectbtn{
     padding: 4px;
   }
-  .projectsoption{
+  .projectsoption li {
+    font-weight: bold;
+  }
+  .leveldes{
+    display: none;
+  }
+  .leveldes1{
+    display: none;
+  }
+  .leveldes2{
     display: none;
   }
 
