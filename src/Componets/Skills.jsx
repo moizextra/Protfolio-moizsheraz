@@ -85,7 +85,6 @@ const Skills = () => {
         <span className='text-4xl skillname'>OOP</span>
         <FaJava size={100}/>
        </div>
-   
     
  
        </div>

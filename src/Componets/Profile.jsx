@@ -4,9 +4,17 @@ import {AiFillGithub} from "react-icons/ai";
 import {GrLinkedinOption} from "react-icons/gr";
 import {FaFacebook} from "react-icons/fa";
 import {MdWork} from "react-icons/md";
-import Terminal from "../Componets/Terminal"
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 
 const Profile = () => {
+    const linkedInPosts = [
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7094712835401818114",
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7091788126544691200",
+        "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7082065250086248448"
+        // Add more LinkedIn embedded post URLs
+      ];
   return (
     <>
     <section className='flex flex-col '>
@@ -43,7 +51,23 @@ Frontend Developer <br/>& Student
     <button  className='hireme border w-full rounded-xl flex items-center justify-center p-3 '><MdWork className='mr-3'/>Resume</button>
     </div>
     </div>
-{/* <Terminal/> */}
+    <div className=" sharing carousel-container mt-9 ml-5 ">
+        <h1 className='lg:text-xl text-center mb-2 leading-normal font-serif intropara font-bold flex items-center justify-center' style={{"color":"#2272FF"}}>My Sharings and Learnings <GrLinkedinOption/></h1>
+      <Carousel borderRadius="50px">
+        {linkedInPosts.map((postUrl, index) => (
+          <div key={index} className="carousel-item">
+            <iframe
+              src={postUrl}
+              height="800" width="700"
+               frameborder="10px"
+borderRadius="30px"
+              allowFullScreen
+              title={`LinkedIn Post ${index}`}
+            ></iframe>
+          </div>
+        ))}
+      </Carousel>
+    </div>
     </section>
     </>
   )
